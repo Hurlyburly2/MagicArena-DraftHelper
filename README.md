@@ -1,4 +1,4 @@
-<h2>Eternal/MTG: Arena Draft Helper</h2>
+<h2>Magic Arena Arena Draft Helper</h2>
 
 <h3>Current Live App:</h3>
 https://boiling-caverns-95111.herokuapp.com/
