@@ -29,4 +29,4 @@
 yarn-debug.log*
 .yarn-integrity
 coverage/*
-google_json_key.json
+g-key.json
