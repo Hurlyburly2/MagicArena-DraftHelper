@@ -1,24 +1,27 @@
-# README
+<h2>Eternal/MTG: Arena Draft Helper</h2>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h3>Current Live App:</h3>
+http://fathomless-everglades-23302.herokuapp.com
 
-Things you may want to cover:
+<h3>In Progress...</h3>
 
-* Ruby version
+<h3>Technologies:</h3>
+Ruby on Rails, React.js, Redux, Google Vision, Google Spreadsheets, Nokogiri
 
-* System dependencies
+<h3>Current Functionality:</h3>
+<ul>
+  <li>JavaScript image uploader implemented in React</li>
+  <li>Image is sent by Rails back-end to Google Vision API</li>
+  <li>Card Database is seeded from Scryfall API</li>
+  <li>Data is pulled from players' tier lists via Google Spreadsheets, web crawlers, and from text files then seeded into the Postgres database</li>
+  <li>Text is extracted from image. It is processed and matched to the database's card names using a fuzzy matcher due to Google Vision OCR imperfection</li>
+  <li>All API connections are authenticated and functional on Heroku. Currently you can upload an image and it will pull card information from the image, and compare it with the seeded card database. Then, it will send card names, information, ratings, and images to the front end to be displayed. (No styling yet) Here is a sample image to test it out with and see the result: https://drive.google.com/file/d/12Biqw3pjinbcWVtN5bGNpUhppgo2QyFR/</li>
+</ul>
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h3>Upcoming:</h3>
+<ul>
+  <li>App will present you which cards are best/worst picks according to various community tier lists</li>
+  <li>Styling</li>
+  <li>D3 graphing information for expansions and individual card packs</li>
+  <li>Random pack generator just for kicks?</li>
+</ul>
