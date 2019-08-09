@@ -1,7 +1,7 @@
 <h2>Eternal/MTG: Arena Draft Helper</h2>
 
 <h3>Current Live App:</h3>
-http://fathomless-everglades-23302.herokuapp.com
+https://boiling-caverns-95111.herokuapp.com/
 
 <h3>In Progress...</h3>
 
@@ -21,7 +21,9 @@ Ruby on Rails, React.js, Redux, Google Vision, Google Spreadsheets, Nokogiri
 <h3>Upcoming:</h3>
 <ul>
   <li>App will present you which cards are best/worst picks according to various community tier lists</li>
-  <li>Styling</li>
+  <li>Styling <- currently in progress</li>
+  <li>Error checking and much more user feedback</li>
+  <li>Front end testing</li>
   <li>D3 graphing information for expansions and individual card packs</li>
   <li>Random pack generator just for kicks?</li>
 </ul>
