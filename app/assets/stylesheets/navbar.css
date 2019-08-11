@@ -20,7 +20,7 @@
   display: inline-block;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.12em;
+  font-size: .9em;
   font-weight: 700;
   margin-right: 30px;
 }
@@ -32,4 +32,5 @@
 
 .navBar a:hover {
   color: #f5592e;
+  cursor: crosshair;
 }
