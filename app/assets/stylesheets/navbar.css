@@ -8,7 +8,7 @@
 }
 
 #navBar-logo {
-  height: 75px;
+  height: 3em;
 }
 
 .navBar ul {
@@ -20,7 +20,7 @@
   display: inline-block;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.20em;
+  font-size: 1.12em;
   font-weight: 700;
   margin-right: 30px;
 }
