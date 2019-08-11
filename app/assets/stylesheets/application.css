@@ -16,7 +16,36 @@
 
  */
 
-.body {
+body, html { width: 100%; height: 100%; }
+
+body {
   margin: 0;
   padding: 0;
+  background-color: #141519;
+}
+
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+/* TEMPORARY STYLING FOR DEVELOPMENT */
+h3 {
+  color: white;
+}
+
+.cardTempList {
+  color: white;
+}
+
+/* FIXING SOME FOUNDATION DEFAULTS  */
+
+.row {
+  max-width: none !important;
+}
+
+.columns {
+  padding: 0 !important;
 }
