@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 export const CardComponent = (props) => {
   return (
     <div>
-      <ul>
+      <ul className="cardTempList">
         <li>{props.id}</li>
         <li><img src={props.imageURL} /></li>
         <li>{props.name}</li>
