@@ -21,19 +21,13 @@ class PackRaterMain extends Component {
     }
     
     return(
-      <div className="container">
-        <div className="row">
-          <div className="col-md2-1">
-          </div>
-          <div className="col-m2-10">
-            <Button
-              text="Back"
-              link="/"
-            />
-            {currentContainer}
-          </div>
-          <div className="col-md-1">
-          </div>
+      <div className="row">
+        <div className="small-10 small-centered columns">
+          <Button
+            text="Back"
+            link="/"
+          />
+          {currentContainer}
         </div>
       </div>
     )

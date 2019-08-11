@@ -9,9 +9,7 @@ class LandingPage extends Component {
   render() {
     return(
       <div className="row">
-        <div className="col-md2-1">
-        </div>
-        <div className="col-md2-10">
+        <div className="small-10 small-centered columns">
           <h1>Magic Arena Draft Helper</h1>
           <h3>Early Development</h3>
           
@@ -22,8 +20,6 @@ class LandingPage extends Component {
             <li>Expansion Statistics</li>
           </ul>
           
-        </div>
-        <div className="col-md-1">
         </div>
       </div>
     )
