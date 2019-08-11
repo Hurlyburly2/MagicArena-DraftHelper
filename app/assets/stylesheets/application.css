@@ -15,3 +15,8 @@
  *= require foundation_and_overrides
 
  */
+
+.body {
+  margin: 0,
+  padding: 0
+}

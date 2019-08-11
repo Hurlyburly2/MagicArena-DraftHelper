@@ -1,0 +1,35 @@
+.row {
+  max-width: none !important;
+}
+
+.navBar {
+  padding: 5px 0;
+  background-color: #141519;
+}
+
+#navBar-logo {
+  height: 75px;
+}
+
+.navBar ul {
+  margin: 0;
+  list-style: none;
+}
+
+.navBar li {
+  display: inline-block;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.20em;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.navBar a {
+  transition: color .25s;
+  color: white;
+}
+
+.navBar a:hover {
+  color: #f5592e;
+}
