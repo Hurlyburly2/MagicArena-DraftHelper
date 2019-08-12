@@ -30,3 +30,15 @@
   color: #f5592e;
   cursor: crosshair;
 }
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .navBar li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .navBar li:not(:first-of-type) {
+    margin-left: 5%;
+    font-size: 1.2em;
+  }
+}
