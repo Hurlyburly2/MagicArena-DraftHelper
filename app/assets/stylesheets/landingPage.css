@@ -29,8 +29,8 @@
   text-shadow: -5px 5px 3px black;
 }
 
-.pageSubTitle {
-  font-size: .75em;
+#pageSubTitle {
+  font-size: 5em;
 }
 
 .textOverImage h2 {
@@ -79,4 +79,28 @@
   margin-top: 2em;  
   width: 70%;
   margin-left: 15%;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .landingImage {
+    height: 80vh;
+  }
+  
+  .textOverImage {
+    height: 80vh;
+  }
+  
+  .pageTitle, #pageSubTitle {
+    margin-left: 5%;
+  }
+  
+  .landingImage {
+    object-position: 50% 0;
+  }
+  
+  .landingPageIcons {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 5vh;
+  }
 }
