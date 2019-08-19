@@ -1,7 +1,7 @@
 <h2>Magic Arena Arena Draft Helper</h2>
 
 <h3>Current Live App:</h3>
-https://boiling-caverns-95111.herokuapp.com/
+http://magicarenahelper.herokuapp.com/
 
 <h3>In Progress...</h3>
 
