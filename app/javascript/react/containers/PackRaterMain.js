@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 
 import FormContainer from './FormContainer'
 import PackResultContainer from './PackResultContainer'
-import Button from '../components/Button'
+import BackButton from '../components/BackButton'
 
 class PackRaterMain extends Component {
   constructor(props) {
@@ -23,9 +23,10 @@ class PackRaterMain extends Component {
     return(
       <div className="row">
         <div className="small-10 small-centered columns">
-          <Button
+          <BackButton
             text="Back"
             link="/"
+            image="BackArrow.png"
           />
           {currentContainer}
         </div>

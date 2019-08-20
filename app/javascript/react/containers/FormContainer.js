@@ -25,17 +25,50 @@ class FormContainer extends Component {
     
     return(  
       <div>
-        <h3>Upload a Screenshot of a Draft Image Below:</h3>
-         <form id="my_form" onSubmit={this.handleSubmit}>
-          <input type="file" 
-                 name="image" 
-                 id="image_upload" 
-                 accept="image/*" 
-          />
-          <input type="submit" value="Submit" />
-        </form>
+        <div className="row">
+          <h3 className='mainHeader small-12 columns'>Upload a Screenshot</h3>
+        </div>
         
-        <div id="results" />
+        <div className="row uploadPageRight">
+          <div className="small-12 medium-4 columns">
+            <img src="/Screenshot1.png" className="sampleImage1"/>
+          </div>
+          
+          <div className="small-12 medium-7 columns uploadPageRight-content">
+            <h4>How it works:</h4>
+            <p>Take a screenshot of your MTG: Arena draft pack in the format that you see to your left. Then, upload the screenshot here. We’ll match your screenshot to the cards in your pack along with the ratings from several well-known tier lists!</p>
+            <form id="my_form" onSubmit={this.handleSubmit}>
+              <input type="file" 
+                     name="image" 
+                     id="image_upload" 
+                     accept="image/*" 
+                     className="choosefile"
+              />
+              <input type="submit" value="Submit" className="uploadPageButton uploadSubmit"/>
+            </form>
+          </div>  
+        </div>
+        
+        <div className="row helpRow">
+          <p className="helpParagraph">Help?</p>
+          <h4>Don't have an image and want to try out the app? No problem!</h4>
+          <p>You can save any use any of this collection of sample images if you just want to try it out!</p>
+        </div>
+        
+        <div className="row imagesRow">
+          <div className="small-6 medium-3 columns">
+            <a href="/Screenshot1.png" download><img src="/Screenshot1.png" className="sampleImage"/></a>
+          </div>
+          <div className="small-6 medium-3 columns">
+            <a href="/Screenshot1.png" download><img src="/Screenshot1.png" className="sampleImage"/></a>
+          </div>
+          <div className="small-6 medium-3 columns">
+            <a href="/Screenshot1.png" download><img src="/Screenshot1.png" className="sampleImage"/></a>
+          </div>
+          <div className="small-6 medium-3 columns">
+            <a href="/Screenshot1.png" download><img src="/Screenshot1.png" className="sampleImage"/></a>
+          </div>
+        </div>
       </div>
     )
   }

@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 import { connect } from 'react-redux'
 
 import CardComponent from '../components/CardComponent'
-import Button from '../components/Button'
+import BackButton from '../components/BackButton'
 
 class PackResultContainer extends Component {
   constructor(props) {
@@ -43,9 +43,10 @@ class PackResultContainer extends Component {
           <div className="col-md2-1">
           </div>
           <div className="col-m2-10">
-            <Button
+            <BackButton
               text="Upload Another Image"
               link="/drafts"
+              image="BackArrow.png"
             />
             {outputText}
           </div>
