@@ -1,0 +1,132 @@
+/* TOP BITS */
+
+.backButtonCenter {
+  margin-top: 10px;
+  height: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.backArrow-icon {
+  width: .50em;
+  margin-right: 10px;
+}
+
+.backLink a {
+  color: #f5592e;
+  font-size: .85em;
+  font-family: 'Open Sans', sans-serif;
+  transition: color .25s;
+}
+
+.backLink a:hover {
+  color: #8dd3e5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mainHeader {
+  color: white;
+  font-family: matrix-ii,serif;
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+/* LEFT PANEL */
+
+.uploadPageRight {
+  position: relative;
+}
+
+.sampleImage1 {
+  width: 98%;
+  padding: 2px;
+  border: 1.5px solid #f5592e;
+}
+
+/* RIGHT PANEL */
+
+.uploadPageRight-content {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  color: white;
+  padding-left: 50px;
+}
+
+.uploadPageRight h4, .helpRow h4 {
+  font-family: matrix-ii, serif;
+  font-size: 1.85em;
+  color: white;
+}
+
+.uploadPageButton {
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  padding: 15px 0;
+  background-color: #f5592e;
+}
+
+.choosefile::-webkit-file-upload-button {
+  width: 50%;
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  padding: 15px 0;
+  background-color: #f5592e;
+  cursor: pointer;
+  transition: background-color .25s;
+}
+
+.choosefile::-webkit-file-upload-button:hover {
+  background-color: #8dd3e5;
+}
+
+.uploadSubmit {
+  width: 100%;
+  border-radius: 0 0 15px 15px !important;
+  cursor: pointer;
+  transition: background-color .25s;
+}
+
+.uploadSubmit:hover {
+  background-color: #8dd3e5;
+}
+
+/* HELP ROW */
+.helpRow .helpParagraph {
+  color: #f5592e;
+  margin-bottom: 25px;
+}
+
+/* IMAGE ROW */
+
+.sampleImage {
+  margin-bottom: 30px;
+  width: 85%;
+  padding: 0 0px;
+  border: 1.5px solid #f5592e;
+  transition: border-color .25s;
+  cursor: pointer;
+}
+
+.sampleImage:hover {
+  border-color: #8dd3e5;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .mainHeader {
+    font-size: 2.5em;
+  }
+  
+  .sampleImage1 {
+    width: 100%;
+    border: 1.5px solid #f5592e;
+  }
+  
+  .uploadPageRight-content {
+    position: static;
+  }
+}

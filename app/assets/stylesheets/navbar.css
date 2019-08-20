@@ -28,7 +28,7 @@
 
 .navBar a:hover {
   color: #f5592e;
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
