@@ -10,7 +10,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'google-cloud-vision', '~> 0.28.0'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'fuzzy_match'
 gem 'httparty'
 gem 'nokogiri', '~> 1.6', '>= 1.6.7.2'
